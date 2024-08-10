@@ -447,6 +447,8 @@ p {
 }
 
 .container_card {
+  color: #333;
+  border-radius: 4px;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -456,6 +458,11 @@ p {
   display: flex;
   position: absolute;
   inset: 0%;
+}
+
+.container_card:hover {
+  border: 5px solid #3bb858;
+  border-radius: 8%;
 }
 
 .textbutton {
